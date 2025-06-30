@@ -82,12 +82,14 @@ Then proceed with:
    terraform apply
    ```
 
+
 ### Option 2: Automated Flow Promotion
 
-1. Make changes to your flows in the Descope Console for your staging project
-2. Go to the "Actions" tab in your GitHub repository
-3. Run the "Promote Flows from Staging" workflow manually
-4. The workflow will:
+1. Add, commit, and push your applied changes with the new `.tfstate` file from your local repo to the GitHub repo before continuing. 
+2. Make changes to your flows in the Descope Console for your staging project
+3. Go to the "Actions" tab in your GitHub repository
+4. Run the "Promote Flows from Staging" workflow manually
+5. The workflow will:
    - Export flows from your staging project
    - Create a pull request with the changes
    - Once merged, automatically deploy to production
