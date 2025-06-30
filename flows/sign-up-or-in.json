@@ -7,9 +7,445 @@
           "email"
         ],
         "calculatedInputKeys": true,
+        "clientScripts": [],
+        "componentsConnectors": {},
+        "dynamicSelects": {},
+        "htmlTemplate": {
+          "058XUDlhFP": {
+            "custom": {
+              "subType": "social",
+              "type": "button"
+            },
+            "displayName": "Google Button",
+            "hidden": false,
+            "isCanvas": false,
+            "linkedNodes": {},
+            "nodes": [],
+            "parent": "zSbBTJOpe0",
+            "props": {
+              "aria-label": "Sign in with Google",
+              "children": "Continue with Google",
+              "color": "primary",
+              "data-descope-provider": "google",
+              "data-type": "social",
+              "formNoValidate": true,
+              "full-width": true,
+              "id": "058XUDlhFP",
+              "mode": "primary",
+              "size": "md",
+              "st-label-spacing": "10px",
+              "startIcon": "google",
+              "startIconColorText": false,
+              "variant": "outline"
+            },
+            "type": {
+              "resolvedName": "GoogleButton"
+            }
+          },
+          "COcMh1vzSn": {
+            "custom": {
+              "type": "button"
+            },
+            "displayName": "Button",
+            "hidden": false,
+            "isCanvas": false,
+            "linkedNodes": {},
+            "nodes": [],
+            "parent": "ROOT",
+            "props": {
+              "auto-submit": true,
+              "children": "Continue",
+              "color": "primary",
+              "data-type": "button",
+              "formNoValidate": false,
+              "full-width": true,
+              "id": "COcMh1vzSn",
+              "mode": "primary",
+              "size": "md",
+              "variant": "contained"
+            },
+            "type": {
+              "resolvedName": "Button"
+            }
+          },
+          "DrraM2J7Lf": {
+            "custom": {
+              "subType": "social",
+              "type": "button"
+            },
+            "displayName": "Apple Button",
+            "hidden": false,
+            "isCanvas": false,
+            "linkedNodes": {},
+            "nodes": [],
+            "parent": "zSbBTJOpe0",
+            "props": {
+              "aria-label": "Sign in with Apple",
+              "children": "Continue with Apple",
+              "color": "primary",
+              "data-descope-provider": "apple",
+              "data-type": "social",
+              "formNoValidate": true,
+              "full-width": true,
+              "id": "DrraM2J7Lf",
+              "shape": "",
+              "size": "md",
+              "st-label-spacing": "10px",
+              "startIcon": "apple",
+              "startIconColorText": false,
+              "variant": "outline"
+            },
+            "type": {
+              "resolvedName": "AppleButton"
+            }
+          },
+          "F6duB0LsbH": {
+            "custom": {},
+            "displayName": "Text",
+            "hidden": false,
+            "isCanvas": false,
+            "linkedNodes": {},
+            "nodes": [],
+            "parent": "PsVOJz6EKK",
+            "props": {
+              "children": "By continuing, I agree to the Company's",
+              "full-width": false,
+              "id": "F6duB0LsbH",
+              "isEnriched": true,
+              "italic": false,
+              "link-target-blank": true,
+              "mode": "primary",
+              "text-align": "center",
+              "variant": "body1"
+            },
+            "type": {
+              "resolvedName": "Text"
+            }
+          },
+          "O6g57IzhQ9": {
+            "custom": {},
+            "displayName": "Error Message",
+            "hidden": false,
+            "isCanvas": false,
+            "linkedNodes": {},
+            "nodes": [],
+            "parent": "ROOT",
+            "props": {
+              "data-type": "error-message",
+              "full-width": false,
+              "hide-when-empty": true,
+              "id": "O6g57IzhQ9",
+              "italic": false,
+              "link-target-blank": true,
+              "mode": "error",
+              "text-align": "center",
+              "variant": "body1"
+            },
+            "type": {
+              "resolvedName": "ErrorMessage"
+            }
+          },
+          "PsVOJz6EKK": {
+            "custom": {},
+            "displayName": "Container",
+            "hidden": false,
+            "isCanvas": true,
+            "linkedNodes": {},
+            "nodes": [
+              "F6duB0LsbH",
+              "p38wRKDanu",
+              "fpO7WnUtoV",
+              "iFbr4t5xkI"
+            ],
+            "parent": "ROOT",
+            "props": {
+              "align": "start",
+              "background": "#ffffff00",
+              "data-editor-type": "container",
+              "direction": "row",
+              "id": "PsVOJz6EKK",
+              "justify": "center",
+              "paddingX": "4",
+              "paddingY": "1",
+              "spaceBetween": "0.5",
+              "st-items-grow": 0,
+              "width": "100%"
+            },
+            "type": {
+              "resolvedName": "Container"
+            }
+          },
+          "ROOT": {
+            "custom": {},
+            "displayName": "Container",
+            "hidden": false,
+            "isCanvas": true,
+            "linkedNodes": {},
+            "nodes": [
+              "cDmtaSAoSF",
+              "YsKt52415F",
+              "PsVOJz6EKK",
+              "COcMh1vzSn",
+              "qVrDtsk_QL",
+              "zSbBTJOpe0",
+              "O6g57IzhQ9"
+            ],
+            "props": {
+              "align": "center",
+              "background": "",
+              "data-editor-type": "container",
+              "direction": "column",
+              "id": "ROOT",
+              "justify": "center",
+              "paddingX": "4",
+              "paddingY": "8",
+              "spaceBetween": "4",
+              "st-items-grow": 0,
+              "width": "100%"
+            },
+            "type": {
+              "resolvedName": "Container"
+            }
+          },
+          "YsKt52415F": {
+            "custom": {
+              "type": "input"
+            },
+            "displayName": "Email Input",
+            "hidden": false,
+            "isCanvas": false,
+            "linkedNodes": {},
+            "nodes": [],
+            "parent": "ROOT",
+            "props": {
+              "bordered": true,
+              "copy-to-clipboard": false,
+              "data-errormessage-pattern-mismatch": "Must be a valid email",
+              "data-errormessage-value-missing": "Please fill out this field.",
+              "full-width": true,
+              "id": "YsKt52415F",
+              "label": "",
+              "label-type": "static",
+              "max": 100,
+              "name": "email",
+              "pattern": "^[\\w._%+-]+@[\\w.-]+\\.[A-Za-z]{2,}$",
+              "placeholder": "Email address *",
+              "required": true,
+              "size": "md",
+              "type": "email"
+            },
+            "type": {
+              "resolvedName": "EmailInput"
+            }
+          },
+          "cDmtaSAoSF": {
+            "custom": {},
+            "displayName": "Text",
+            "hidden": false,
+            "isCanvas": false,
+            "linkedNodes": {},
+            "nodes": [],
+            "parent": "ROOT",
+            "props": {
+              "children": "Attempt 6\n\n",
+              "full-width": false,
+              "id": "cDmtaSAoSF",
+              "isEnriched": true,
+              "italic": false,
+              "link-target-blank": true,
+              "mode": "primary",
+              "text-align": "center",
+              "variant": "h3"
+            },
+            "type": {
+              "resolvedName": "Text"
+            }
+          },
+          "fpO7WnUtoV": {
+            "custom": {},
+            "displayName": "Text",
+            "hidden": false,
+            "isCanvas": false,
+            "linkedNodes": {},
+            "nodes": [],
+            "parent": "PsVOJz6EKK",
+            "props": {
+              "children": "and",
+              "full-width": false,
+              "id": "fpO7WnUtoV",
+              "isEnriched": true,
+              "italic": false,
+              "link-target-blank": true,
+              "mode": "primary",
+              "text-align": "center",
+              "variant": "body1"
+            },
+            "type": {
+              "resolvedName": "Text"
+            }
+          },
+          "gDYTgzMsxf": {
+            "custom": {
+              "type": "button"
+            },
+            "displayName": "Passkey Button",
+            "hidden": false,
+            "isCanvas": false,
+            "linkedNodes": {},
+            "nodes": [],
+            "parent": "zSbBTJOpe0",
+            "props": {
+              "aria-label": "Sign in with passkey",
+              "children": "Continue with Passkeys",
+              "color": "primary",
+              "data-type": "biometrics",
+              "formNoValidate": false,
+              "full-width": true,
+              "id": "gDYTgzMsxf",
+              "mode": "primary",
+              "size": "md",
+              "st-icon-color": "currentColor",
+              "st-label-spacing": "10px",
+              "startIcon": "passkey",
+              "startIconColorText": true,
+              "variant": "outline"
+            },
+            "type": {
+              "resolvedName": "PasskeyButton"
+            }
+          },
+          "iFbr4t5xkI": {
+            "custom": {},
+            "displayName": "Link",
+            "hidden": false,
+            "isCanvas": false,
+            "linkedNodes": {},
+            "nodes": [],
+            "parent": "PsVOJz6EKK",
+            "props": {
+              "children": "Terms of Service",
+              "full-width": false,
+              "href": "",
+              "id": "iFbr4t5xkI",
+              "italic": false,
+              "mode": "primary",
+              "target": "_blank",
+              "text-align": "center",
+              "variant": "body1"
+            },
+            "type": {
+              "resolvedName": "Link"
+            }
+          },
+          "p38wRKDanu": {
+            "custom": {},
+            "displayName": "Link",
+            "hidden": false,
+            "isCanvas": false,
+            "linkedNodes": {},
+            "nodes": [],
+            "parent": "PsVOJz6EKK",
+            "props": {
+              "children": "Privacy Statement",
+              "full-width": false,
+              "href": "",
+              "id": "p38wRKDanu",
+              "italic": false,
+              "mode": "primary",
+              "target": "_blank",
+              "text-align": "center",
+              "variant": "body1"
+            },
+            "type": {
+              "resolvedName": "Link"
+            }
+          },
+          "qVrDtsk_QL": {
+            "custom": {},
+            "displayName": "Divider",
+            "hidden": false,
+            "isCanvas": false,
+            "linkedNodes": {},
+            "nodes": [],
+            "parent": "ROOT",
+            "props": {
+              "children": "OR",
+              "id": "qVrDtsk_QL",
+              "italic": false,
+              "mode": "primary",
+              "variant": "body1",
+              "vertical": false
+            },
+            "type": {
+              "resolvedName": "Divider"
+            }
+          },
+          "zSbBTJOpe0": {
+            "custom": {},
+            "displayName": "Container",
+            "hidden": false,
+            "isCanvas": true,
+            "linkedNodes": {},
+            "nodes": [
+              "058XUDlhFP",
+              "DrraM2J7Lf",
+              "gDYTgzMsxf"
+            ],
+            "parent": "ROOT",
+            "props": {
+              "align": "center",
+              "background": "#ffffff00",
+              "data-editor-type": "container",
+              "direction": "column",
+              "id": "zSbBTJOpe0",
+              "justify": "start",
+              "paddingX": "0",
+              "paddingY": "4",
+              "spaceBetween": "1.5",
+              "st-items-grow": 0,
+              "width": "100%"
+            },
+            "type": {
+              "resolvedName": "Container"
+            }
+          }
+        },
         "id": "0",
         "inputKeys": [
           "email"
+        ],
+        "inputsMetadata": [
+          {
+            "displayName": "Email Input",
+            "key": "email"
+          }
+        ],
+        "interactions": [
+          {
+            "icon": "google",
+            "id": "058XUDlhFP",
+            "label": "Continue with Google",
+            "subType": "social",
+            "type": "button"
+          },
+          {
+            "id": "COcMh1vzSn",
+            "label": "Continue",
+            "type": "button"
+          },
+          {
+            "icon": "apple",
+            "id": "DrraM2J7Lf",
+            "label": "Continue with Apple",
+            "subType": "social",
+            "type": "button"
+          },
+          {
+            "icon": "passkey",
+            "id": "gDYTgzMsxf",
+            "label": "Continue with Passkeys",
+            "type": "button"
+          }
         ],
         "name": "Welcome Screen",
         "next": {
@@ -84,6 +520,12 @@
           "sentTo.maskedPhone"
         ],
         "id": "13",
+        "inputsMetadata": [
+          {
+            "displayName": "One Time Code",
+            "key": "code"
+          }
+        ],
         "name": "Verify OTP",
         "next": {
           "rules": [
@@ -167,7 +609,16 @@
         }
       },
       "16": {
+        "contextKeys": [
+          "inputs.phone"
+        ],
         "id": "16",
+        "inputsMetadata": [
+          {
+            "displayName": "Full Name Input",
+            "key": "fullName"
+          }
+        ],
         "name": "User Information",
         "next": {
           "rules": [
@@ -248,6 +699,7 @@
       },
       "21": {
         "id": "21",
+        "inputsMetadata": [],
         "name": "Promote Biometrics",
         "next": {
           "rules": [
@@ -480,7 +932,11 @@
         }
       },
       "25": {
+        "contextKeys": [
+          "sentTo.maskedEmail"
+        ],
         "id": "25",
+        "inputsMetadata": [],
         "name": "Magic Link Sent",
         "next": {
           "rules": [
@@ -507,6 +963,7 @@
       },
       "26": {
         "id": "26",
+        "inputsMetadata": [],
         "name": "Verified Successfully",
         "next": {},
         "screenId": "SC2zErc2rvcODzMJ8mWoe16k0E8ps",
@@ -539,6 +996,12 @@
           "sentTo.maskedPhone"
         ],
         "id": "28",
+        "inputsMetadata": [
+          {
+            "displayName": "One Time Code",
+            "key": "code"
+          }
+        ],
         "name": "Verify OTP",
         "next": {
           "rules": [
@@ -746,7 +1209,11 @@
         }
       },
       "32": {
+        "contextKeys": [
+          "sentTo.maskedEmail"
+        ],
         "id": "32",
+        "inputsMetadata": [],
         "name": "Magic Link Sent",
         "next": {
           "rules": [
@@ -769,6 +1236,7 @@
       },
       "33": {
         "id": "33",
+        "inputsMetadata": [],
         "name": "Verified Successfully",
         "next": {},
         "screenId": "SC2zErc2o39zetPnQIj0R5BXlnBIn",
@@ -837,9 +1305,21 @@
             "type": "inline",
             "value": "35.end"
           },
+          "loginHint": {
+            "type": "inline",
+            "value": ""
+          },
+          "popup": {
+            "type": "inline",
+            "value": ""
+          },
           "prompt": {
             "type": "inline",
             "value": []
+          },
+          "rawResponse": {
+            "type": "inline",
+            "value": ""
           },
           "redirectUrl": {
             "type": "inline",
@@ -877,9 +1357,21 @@
             "type": "inline",
             "value": "35.end"
           },
+          "loginHint": {
+            "type": "inline",
+            "value": ""
+          },
+          "popup": {
+            "type": "inline",
+            "value": ""
+          },
           "prompt": {
             "type": "inline",
             "value": []
+          },
+          "rawResponse": {
+            "type": "inline",
+            "value": ""
           },
           "redirectUrl": {
             "type": "inline",
@@ -949,7 +1441,7 @@
       "6": {
         "action": "logged-in",
         "id": "6",
-        "name": "Generate JWT",
+        "name": "End",
         "next": {},
         "type": "automated",
         "view": {
@@ -961,6 +1453,16 @@
         "id": "7",
         "inputKeys": [
           "fullName"
+        ],
+        "inputsMetadata": [
+          {
+            "displayName": "Phone Input",
+            "key": "phone"
+          },
+          {
+            "displayName": "Full Name Input",
+            "key": "fullName"
+          }
         ],
         "name": "User Information - Unverified - Phone Only",
         "next": {
@@ -997,7 +1499,7 @@
   },
   "flowId": "sign-up-or-in",
   "metadata": {
-    "componentsVersion": "2.0.463",
+    "componentsVersion": "2.0.557",
     "description": "Default Descope Sign Up or In flow; enables users to sign up or in via Magic Link, Social Logins or Biometrics. For Biometrics, Email is verified if needed. Registration information includes Full Name and Phone (verification via OTP).",
     "name": "Sign Up or In",
     "sharedInteractions": [
@@ -1007,7 +1509,6 @@
       }
     ]
   },
-  "references": {},
   "screens": [
     {
       "contents": {
@@ -2112,6 +2613,7 @@
           "nodes": [],
           "parent": "zSbBTJOpe0",
           "props": {
+            "aria-label": "Sign in with Google",
             "children": "Continue with Google",
             "color": "primary",
             "data-descope-provider": "google",
@@ -2168,6 +2670,7 @@
           "nodes": [],
           "parent": "zSbBTJOpe0",
           "props": {
+            "aria-label": "Sign in with Apple",
             "children": "Continue with Apple",
             "color": "primary",
             "data-descope-provider": "apple",
@@ -2223,6 +2726,7 @@
             "hide-when-empty": true,
             "id": "O6g57IzhQ9",
             "italic": false,
+            "link-target-blank": true,
             "mode": "error",
             "text-align": "center",
             "variant": "body1"
@@ -2333,7 +2837,7 @@
           "nodes": [],
           "parent": "ROOT",
           "props": {
-            "children": "Welcome!",
+            "children": "Attempt 6\n\n",
             "full-width": false,
             "id": "cDmtaSAoSF",
             "isEnriched": true,
@@ -2381,6 +2885,7 @@
           "nodes": [],
           "parent": "zSbBTJOpe0",
           "props": {
+            "aria-label": "Sign in with passkey",
             "children": "Continue with Passkeys",
             "color": "primary",
             "data-type": "biometrics",
@@ -2500,22 +3005,26 @@
           "icon": "google",
           "id": "058XUDlhFP",
           "label": "Continue with Google",
-          "subType": "social"
+          "subType": "social",
+          "type": "button"
         },
         {
           "id": "COcMh1vzSn",
-          "label": "Continue"
+          "label": "Continue",
+          "type": "button"
         },
         {
           "icon": "apple",
           "id": "DrraM2J7Lf",
           "label": "Continue with Apple",
-          "subType": "social"
+          "subType": "social",
+          "type": "button"
         },
         {
           "icon": "passkey",
           "id": "gDYTgzMsxf",
-          "label": "Continue with Passkeys"
+          "label": "Continue with Passkeys",
+          "type": "button"
         }
       ],
       "screenId": "SC2zErbzJjDRigykh5YQtsCTEYNxF"
@@ -3063,6 +3572,7 @@
           }
         }
       },
+      "interactions": [],
       "screenId": "SC2zErc2o39zetPnQIj0R5BXlnBIn"
     },
     {
@@ -3155,6 +3665,7 @@
           }
         }
       },
+      "interactions": [],
       "screenId": "SC2zErc2rvcODzMJ8mWoe16k0E8ps"
     }
   ]

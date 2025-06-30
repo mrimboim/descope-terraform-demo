@@ -692,7 +692,6 @@
       }
     ]
   },
-  "references": {},
   "screens": [
     {
       "contents": {
@@ -1899,6 +1898,7 @@
           }
         }
       },
+      "interactions": [],
       "screenId": "SC2zErbzQVabTSgzVIaEZ7f95L8vG"
     },
     {
@@ -2376,6 +2376,7 @@
           }
         }
       },
+      "interactions": [],
       "screenId": "SC2zErc31fvCGPxDCE1hp580BBN30"
     }
   ]
