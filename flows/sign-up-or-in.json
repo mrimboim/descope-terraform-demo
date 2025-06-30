@@ -42,36 +42,6 @@
               "resolvedName": "GoogleButton"
             }
           },
-          "38du2e5PtS": {
-            "custom": {
-              "subType": "social",
-              "type": "button"
-            },
-            "displayName": "Facebook Button",
-            "hidden": false,
-            "isCanvas": false,
-            "linkedNodes": {},
-            "nodes": [],
-            "parent": "zSbBTJOpe0",
-            "props": {
-              "aria-label": "Sign in with Facebook",
-              "children": "Sign in with Facebook",
-              "color": "primary",
-              "data-descope-provider": "facebook",
-              "data-type": "social",
-              "formNoValidate": true,
-              "full-width": true,
-              "id": "38du2e5PtS",
-              "size": "md",
-              "st-label-spacing": "10px",
-              "startIcon": "facebook",
-              "startIconColorText": false,
-              "variant": "outline"
-            },
-            "type": {
-              "resolvedName": "FacebookButton"
-            }
-          },
           "COcMh1vzSn": {
             "custom": {
               "type": "button"
@@ -277,7 +247,7 @@
             "nodes": [],
             "parent": "ROOT",
             "props": {
-              "children": "Welcome, Linktree User!\n\n",
+              "children": "Attempt 5\n\n",
               "full-width": false,
               "id": "cDmtaSAoSF",
               "isEnriched": true,
@@ -418,7 +388,6 @@
             "linkedNodes": {},
             "nodes": [
               "058XUDlhFP",
-              "38du2e5PtS",
               "DrraM2J7Lf",
               "gDYTgzMsxf"
             ],
@@ -476,13 +445,6 @@
             "id": "gDYTgzMsxf",
             "label": "Continue with Passkeys",
             "type": "button"
-          },
-          {
-            "icon": "facebook",
-            "id": "38du2e5PtS",
-            "label": "Sign in with Facebook",
-            "subType": "social",
-            "type": "button"
           }
         ],
         "name": "Welcome Screen",
@@ -503,14 +465,10 @@
             {
               "interactionId": "DrraM2J7Lf",
               "taskId": "35"
-            },
-            {
-              "interactionId": "38du2e5PtS",
-              "taskId": "35"
             }
           ]
         },
-        "screenId": "SC2ybnadBX1y3ijkyPFBvHJNGegIT",
+        "screenId": "SC2zErbzJjDRigykh5YQtsCTEYNxF",
         "type": "screen",
         "view": {
           "x": -588,
@@ -581,7 +539,7 @@
             }
           ]
         },
-        "screenId": "SC2ybnaY7JZiLkmqe9wEFOjIC9KcO",
+        "screenId": "SC2zErbyDPfUUEdZCyCAJppog0xC2",
         "type": "screen",
         "view": {
           "x": 2856,
@@ -670,7 +628,7 @@
             }
           ]
         },
-        "screenId": "SC2ybnae2RwAshTGQKCAcLbjGbejU",
+        "screenId": "SC2zErbx6VXPUSl1RQbCBbqLma24p",
         "type": "screen",
         "view": {
           "x": 3252,
@@ -755,7 +713,7 @@
             }
           ]
         },
-        "screenId": "SC2ybnabxXbN2xhp0YN2fpCGK63zZ",
+        "screenId": "SC2zErc2bInQ2QKzUf13dqmeXI0Tf",
         "type": "screen",
         "view": {
           "x": 4452,
@@ -996,7 +954,7 @@
             }
           ]
         },
-        "screenId": "SC2ybnaa6IYrsYwtBlVyc2tpi5mEr",
+        "screenId": "SC2zErbzBupfug069hnCOddFdZVBZ",
         "type": "screen",
         "view": {
           "x": -132,
@@ -1008,7 +966,7 @@
         "inputsMetadata": [],
         "name": "Verified Successfully",
         "next": {},
-        "screenId": "SC2ybnad9Jv9BjATNZytNmC3930nC",
+        "screenId": "SC2zErc2rvcODzMJ8mWoe16k0E8ps",
         "type": "screen",
         "view": {
           "x": 432,
@@ -1061,7 +1019,7 @@
             }
           ]
         },
-        "screenId": "SC2ybnacwocotKcZnALsPMGhUrK19",
+        "screenId": "SC2zErbzIgeXAx5ACAmFJZ3NHcX3y",
         "type": "screen",
         "view": {
           "x": 2436,
@@ -1269,7 +1227,7 @@
             }
           ]
         },
-        "screenId": "SC2ybnaXjed0b8LPSUJgsrG1NL4Bd",
+        "screenId": "SC2zErbxFCfkkxG1PwIskcUb3h2vv",
         "type": "screen",
         "view": {
           "x": 696,
@@ -1281,7 +1239,7 @@
         "inputsMetadata": [],
         "name": "Verified Successfully",
         "next": {},
-        "screenId": "SC2ybnaZiS2Vd5rnhph64h4uUq4SL",
+        "screenId": "SC2zErc2o39zetPnQIj0R5BXlnBIn",
         "type": "screen",
         "view": {
           "x": 1116,
@@ -1515,7 +1473,7 @@
             }
           ]
         },
-        "screenId": "SC2ybnaeroUcED2GRjXJ9H0JMtiqe",
+        "screenId": "SC2zErc0iafTc9eEJZw7D1vwxAG6M",
         "type": "screen",
         "view": {
           "x": 1692,
@@ -1541,7 +1499,7 @@
   },
   "flowId": "sign-up-or-in",
   "metadata": {
-    "componentsVersion": "2.0.547",
+    "componentsVersion": "2.0.557",
     "description": "Default Descope Sign Up or In flow; enables users to sign up or in via Magic Link, Social Logins or Biometrics. For Biometrics, Email is verified if needed. Registration information includes Full Name and Phone (verification via OTP).",
     "name": "Sign Up or In",
     "sharedInteractions": [
@@ -1552,6 +1510,182 @@
     ]
   },
   "screens": [
+    {
+      "contents": {
+        "4I3hQX95BZ": {
+          "custom": {},
+          "displayName": "Container",
+          "hidden": false,
+          "isCanvas": true,
+          "linkedNodes": {},
+          "nodes": [
+            "jqtNmu7Gql",
+            "UZHgESPGoK"
+          ],
+          "parent": "ROOT",
+          "props": {
+            "align": "center",
+            "background": "#ffffff00",
+            "data-editor-type": "container",
+            "direction": "row",
+            "id": "4I3hQX95BZ",
+            "justify": "between",
+            "paddingX": "4",
+            "paddingY": "2",
+            "spaceBetween": "8",
+            "width": "100%"
+          },
+          "type": {
+            "resolvedName": "Container"
+          }
+        },
+        "7mIfMql_Ht": {
+          "custom": {},
+          "displayName": "Text",
+          "hidden": false,
+          "isCanvas": false,
+          "linkedNodes": {},
+          "nodes": [],
+          "parent": "ROOT",
+          "props": {
+            "children": "To complete your sign up, please provide the following information",
+            "full-width": false,
+            "id": "7mIfMql_Ht",
+            "italic": false,
+            "mode": "primary",
+            "text-align": "center",
+            "variant": "subtitle2"
+          },
+          "type": {
+            "resolvedName": "Text"
+          }
+        },
+        "NQ8ig4chcI": {
+          "custom": {
+            "type": "input"
+          },
+          "displayName": "Full Name Input",
+          "hidden": false,
+          "isCanvas": false,
+          "linkedNodes": {},
+          "nodes": [],
+          "parent": "ROOT",
+          "props": {
+            "bordered": true,
+            "full-width": true,
+            "id": "NQ8ig4chcI",
+            "label": "",
+            "max": 100,
+            "name": "fullName",
+            "placeholder": "Full Name",
+            "required": false,
+            "size": "md",
+            "type": "text"
+          },
+          "type": {
+            "resolvedName": "FullNameInput"
+          }
+        },
+        "ROOT": {
+          "custom": {},
+          "displayName": "Container",
+          "hidden": false,
+          "isCanvas": true,
+          "linkedNodes": {},
+          "nodes": [
+            "7mIfMql_Ht",
+            "NQ8ig4chcI",
+            "4I3hQX95BZ",
+            "vzbXHpGdM8"
+          ],
+          "props": {
+            "align": "center",
+            "background": "",
+            "data-editor-type": "container",
+            "direction": "column",
+            "id": "ROOT",
+            "justify": "center",
+            "paddingX": "4",
+            "paddingY": "8",
+            "spaceBetween": "4",
+            "width": "100%"
+          },
+          "type": {
+            "resolvedName": "Container"
+          }
+        },
+        "UZHgESPGoK": {
+          "custom": {},
+          "displayName": "Image",
+          "hidden": false,
+          "isCanvas": false,
+          "linkedNodes": {},
+          "nodes": [],
+          "parent": "4I3hQX95BZ",
+          "props": {
+            "alt": "Image",
+            "id": "UZHgESPGoK",
+            "src": "https://imgs.descope.com/flows/common/v1/green-checkmark.png",
+            "width": "30px"
+          },
+          "type": {
+            "resolvedName": "Image"
+          }
+        },
+        "jqtNmu7Gql": {
+          "custom": {},
+          "displayName": "Text",
+          "hidden": false,
+          "isCanvas": false,
+          "linkedNodes": {},
+          "nodes": [],
+          "parent": "4I3hQX95BZ",
+          "props": {
+            "children": "Phone number: {{inputs.phone}}",
+            "full-width": false,
+            "id": "jqtNmu7Gql",
+            "italic": false,
+            "mode": "secondary",
+            "text-align": "center",
+            "variant": "body1"
+          },
+          "type": {
+            "resolvedName": "Text"
+          }
+        },
+        "vzbXHpGdM8": {
+          "custom": {
+            "type": "button"
+          },
+          "displayName": "Button",
+          "hidden": false,
+          "isCanvas": false,
+          "linkedNodes": {},
+          "nodes": [],
+          "parent": "ROOT",
+          "props": {
+            "children": "Submit",
+            "data-type": "button",
+            "formNoValidate": false,
+            "full-width": true,
+            "id": "vzbXHpGdM8",
+            "mode": "primary",
+            "size": "md",
+            "variant": "contained"
+          },
+          "type": {
+            "resolvedName": "Button"
+          }
+        }
+      },
+      "interactions": [
+        {
+          "id": "vzbXHpGdM8",
+          "label": "Submit"
+        }
+      ],
+      "screenId": "SC2zErbx6VXPUSl1RQbCBbqLma24p"
+    },
     {
       "contents": {
         "7ekqaI_T5T": {
@@ -1728,7 +1862,7 @@
           "label": "Send again"
         }
       ],
-      "screenId": "SC2ybnaXjed0b8LPSUJgsrG1NL4Bd"
+      "screenId": "SC2zErbxFCfkkxG1PwIskcUb3h2vv"
     },
     {
       "contents": {
@@ -1977,100 +2111,7 @@
           "label": "Send again"
         }
       ],
-      "screenId": "SC2ybnaY7JZiLkmqe9wEFOjIC9KcO"
-    },
-    {
-      "contents": {
-        "1sMmkeVxVT": {
-          "custom": {},
-          "displayName": "Error Message",
-          "hidden": false,
-          "isCanvas": false,
-          "linkedNodes": {},
-          "nodes": [],
-          "parent": "ROOT",
-          "props": {
-            "data-type": "error-message",
-            "full-width": false,
-            "id": "1sMmkeVxVT",
-            "italic": false,
-            "mode": "error",
-            "text-align": "center",
-            "variant": "body1"
-          },
-          "type": {
-            "resolvedName": "ErrorMessage"
-          }
-        },
-        "LmrSIGOWZb": {
-          "custom": {},
-          "displayName": "Text",
-          "hidden": false,
-          "isCanvas": false,
-          "linkedNodes": {},
-          "nodes": [],
-          "parent": "ROOT",
-          "props": {
-            "children": "You're authenticated, you can close this window now",
-            "full-width": false,
-            "id": "LmrSIGOWZb",
-            "italic": false,
-            "mode": "primary",
-            "text-align": "center",
-            "variant": "subtitle1"
-          },
-          "type": {
-            "resolvedName": "Text"
-          }
-        },
-        "PUZgvFyUAB": {
-          "custom": {},
-          "displayName": "Image",
-          "hidden": false,
-          "isCanvas": false,
-          "linkedNodes": {},
-          "nodes": [],
-          "parent": "ROOT",
-          "props": {
-            "alt": "Image",
-            "height": "50px",
-            "id": "PUZgvFyUAB",
-            "src": "https://imgs.descope.com/flows/common/v1/green-checkmark.png"
-          },
-          "type": {
-            "resolvedName": "Image"
-          }
-        },
-        "ROOT": {
-          "custom": {},
-          "displayName": "Container",
-          "hidden": false,
-          "isCanvas": true,
-          "linkedNodes": {},
-          "nodes": [
-            "PUZgvFyUAB",
-            "LmrSIGOWZb",
-            "1sMmkeVxVT"
-          ],
-          "props": {
-            "align": "center",
-            "background": "",
-            "data-editor-type": "container",
-            "direction": "column",
-            "id": "ROOT",
-            "justify": "center",
-            "paddingX": "4",
-            "paddingY": "8",
-            "spaceBetween": "4",
-            "width": "100%"
-          },
-          "type": {
-            "resolvedName": "Container"
-          }
-        }
-      },
-      "interactions": [],
-      "screenId": "SC2ybnaZiS2Vd5rnhph64h4uUq4SL"
+      "screenId": "SC2zErbyDPfUUEdZCyCAJppog0xC2"
     },
     {
       "contents": {
@@ -2277,213 +2318,7 @@
           "label": "Send again"
         }
       ],
-      "screenId": "SC2ybnaa6IYrsYwtBlVyc2tpi5mEr"
-    },
-    {
-      "contents": {
-        "-elJaMwrLU": {
-          "custom": {
-            "type": "button"
-          },
-          "displayName": "Button",
-          "hidden": false,
-          "isCanvas": false,
-          "linkedNodes": {},
-          "nodes": [],
-          "parent": "Mz6pW94dd2",
-          "props": {
-            "children": "Not now, maybe later",
-            "color": "primary",
-            "data-type": "button",
-            "formNoValidate": false,
-            "full-width": true,
-            "id": "-elJaMwrLU",
-            "mode": "primary",
-            "size": "sm",
-            "variant": "outline"
-          },
-          "type": {
-            "resolvedName": "Button"
-          }
-        },
-        "Mz6pW94dd2": {
-          "custom": {},
-          "displayName": "Container",
-          "hidden": false,
-          "isCanvas": true,
-          "linkedNodes": {},
-          "nodes": [
-            "NBlRNCDAZS",
-            "-elJaMwrLU"
-          ],
-          "parent": "ROOT",
-          "props": {
-            "align": "center",
-            "background": "#ffffff00",
-            "data-editor-type": "container",
-            "direction": "column",
-            "id": "Mz6pW94dd2",
-            "justify": "start",
-            "paddingX": "4",
-            "paddingY": "4",
-            "spaceBetween": "1.5",
-            "width": "100%"
-          },
-          "type": {
-            "resolvedName": "Container"
-          }
-        },
-        "NBlRNCDAZS": {
-          "custom": {
-            "type": "button"
-          },
-          "displayName": "Biometrics Button",
-          "hidden": false,
-          "isCanvas": false,
-          "linkedNodes": {},
-          "nodes": [],
-          "parent": "Mz6pW94dd2",
-          "props": {
-            "auto-submit": true,
-            "children": "Add passkeys",
-            "color": "primary",
-            "data-type": "biometrics",
-            "formNoValidate": false,
-            "full-width": true,
-            "id": "NBlRNCDAZS",
-            "mode": "primary",
-            "size": "sm",
-            "startIcon": "passkey",
-            "startIconColorText": true,
-            "variant": "contained"
-          },
-          "type": {
-            "resolvedName": "BiometricsButton"
-          }
-        },
-        "OPk9Kp7s1X": {
-          "custom": {},
-          "displayName": "Error Message",
-          "hidden": false,
-          "isCanvas": false,
-          "linkedNodes": {},
-          "nodes": [],
-          "parent": "ROOT",
-          "props": {
-            "data-type": "error-message",
-            "full-width": false,
-            "hide-when-empty": true,
-            "id": "OPk9Kp7s1X",
-            "italic": false,
-            "mode": "error",
-            "text-align": "center",
-            "variant": "body1"
-          },
-          "type": {
-            "resolvedName": "ErrorMessage"
-          }
-        },
-        "PXzqwp1Mi0": {
-          "custom": {},
-          "displayName": "Text",
-          "hidden": false,
-          "isCanvas": false,
-          "linkedNodes": {},
-          "nodes": [],
-          "parent": "ROOT",
-          "props": {
-            "children": "Configure Passkeys?",
-            "full-width": false,
-            "id": "PXzqwp1Mi0",
-            "italic": false,
-            "mode": "primary",
-            "text-align": "center",
-            "variant": "h3"
-          },
-          "type": {
-            "resolvedName": "Text"
-          }
-        },
-        "ROOT": {
-          "custom": {},
-          "displayName": "Container",
-          "hidden": false,
-          "isCanvas": true,
-          "linkedNodes": {},
-          "nodes": [
-            "PXzqwp1Mi0",
-            "_F5AIo-MRb",
-            "wCSlkhUS4J",
-            "Mz6pW94dd2",
-            "OPk9Kp7s1X"
-          ],
-          "props": {
-            "align": "center",
-            "background": "",
-            "data-editor-type": "container",
-            "direction": "column",
-            "id": "ROOT",
-            "justify": "center",
-            "paddingX": "4",
-            "paddingY": "8",
-            "spaceBetween": "4",
-            "width": "100%"
-          },
-          "type": {
-            "resolvedName": "Container"
-          }
-        },
-        "_F5AIo-MRb": {
-          "custom": {},
-          "displayName": "Image",
-          "hidden": false,
-          "isCanvas": false,
-          "linkedNodes": {},
-          "nodes": [],
-          "parent": "ROOT",
-          "props": {
-            "alt": "Image",
-            "id": "_F5AIo-MRb",
-            "src": "https://imgs.descope.com/flows/common/v1/fingerprint.svg"
-          },
-          "type": {
-            "resolvedName": "Image"
-          }
-        },
-        "wCSlkhUS4J": {
-          "custom": {},
-          "displayName": "Text",
-          "hidden": false,
-          "isCanvas": false,
-          "linkedNodes": {},
-          "nodes": [],
-          "parent": "ROOT",
-          "props": {
-            "children": "Passkeys will make it easier for you to sign in!",
-            "full-width": false,
-            "id": "wCSlkhUS4J",
-            "italic": false,
-            "mode": "primary",
-            "text-align": "center",
-            "variant": "subtitle2"
-          },
-          "type": {
-            "resolvedName": "Text"
-          }
-        }
-      },
-      "interactions": [
-        {
-          "id": "-elJaMwrLU",
-          "label": "Not now, maybe later"
-        },
-        {
-          "icon": "passkey",
-          "id": "NBlRNCDAZS",
-          "label": "Add passkeys"
-        }
-      ],
-      "screenId": "SC2ybnabxXbN2xhp0YN2fpCGK63zZ"
+      "screenId": "SC2zErbzBupfug069hnCOddFdZVBZ"
     },
     {
       "contents": {
@@ -2762,100 +2597,7 @@
           "label": "Send again"
         }
       ],
-      "screenId": "SC2ybnacwocotKcZnALsPMGhUrK19"
-    },
-    {
-      "contents": {
-        "1sMmkeVxVT": {
-          "custom": {},
-          "displayName": "Error Message",
-          "hidden": false,
-          "isCanvas": false,
-          "linkedNodes": {},
-          "nodes": [],
-          "parent": "ROOT",
-          "props": {
-            "data-type": "error-message",
-            "full-width": false,
-            "id": "1sMmkeVxVT",
-            "italic": false,
-            "mode": "error",
-            "text-align": "center",
-            "variant": "body1"
-          },
-          "type": {
-            "resolvedName": "ErrorMessage"
-          }
-        },
-        "LmrSIGOWZb": {
-          "custom": {},
-          "displayName": "Text",
-          "hidden": false,
-          "isCanvas": false,
-          "linkedNodes": {},
-          "nodes": [],
-          "parent": "ROOT",
-          "props": {
-            "children": "You're authenticated, you can close this window now",
-            "full-width": false,
-            "id": "LmrSIGOWZb",
-            "italic": false,
-            "mode": "primary",
-            "text-align": "center",
-            "variant": "subtitle1"
-          },
-          "type": {
-            "resolvedName": "Text"
-          }
-        },
-        "PUZgvFyUAB": {
-          "custom": {},
-          "displayName": "Image",
-          "hidden": false,
-          "isCanvas": false,
-          "linkedNodes": {},
-          "nodes": [],
-          "parent": "ROOT",
-          "props": {
-            "alt": "Image",
-            "height": "50px",
-            "id": "PUZgvFyUAB",
-            "src": "https://imgs.descope.com/flows/common/v1/green-checkmark.png"
-          },
-          "type": {
-            "resolvedName": "Image"
-          }
-        },
-        "ROOT": {
-          "custom": {},
-          "displayName": "Container",
-          "hidden": false,
-          "isCanvas": true,
-          "linkedNodes": {},
-          "nodes": [
-            "PUZgvFyUAB",
-            "LmrSIGOWZb",
-            "1sMmkeVxVT"
-          ],
-          "props": {
-            "align": "center",
-            "background": "",
-            "data-editor-type": "container",
-            "direction": "column",
-            "id": "ROOT",
-            "justify": "center",
-            "paddingX": "4",
-            "paddingY": "8",
-            "spaceBetween": "4",
-            "width": "100%"
-          },
-          "type": {
-            "resolvedName": "Container"
-          }
-        }
-      },
-      "interactions": [],
-      "screenId": "SC2ybnad9Jv9BjATNZytNmC3930nC"
+      "screenId": "SC2zErbzIgeXAx5ACAmFJZ3NHcX3y"
     },
     {
       "contents": {
@@ -2888,36 +2630,6 @@
           },
           "type": {
             "resolvedName": "GoogleButton"
-          }
-        },
-        "38du2e5PtS": {
-          "custom": {
-            "subType": "social",
-            "type": "button"
-          },
-          "displayName": "Facebook Button",
-          "hidden": false,
-          "isCanvas": false,
-          "linkedNodes": {},
-          "nodes": [],
-          "parent": "zSbBTJOpe0",
-          "props": {
-            "aria-label": "Sign in with Facebook",
-            "children": "Sign in with Facebook",
-            "color": "primary",
-            "data-descope-provider": "facebook",
-            "data-type": "social",
-            "formNoValidate": true,
-            "full-width": true,
-            "id": "38du2e5PtS",
-            "size": "md",
-            "st-label-spacing": "10px",
-            "startIcon": "facebook",
-            "startIconColorText": false,
-            "variant": "outline"
-          },
-          "type": {
-            "resolvedName": "FacebookButton"
           }
         },
         "COcMh1vzSn": {
@@ -3125,7 +2837,7 @@
           "nodes": [],
           "parent": "ROOT",
           "props": {
-            "children": "Welcome, Linktree User!\n\n",
+            "children": "Attempt 5\n\n",
             "full-width": false,
             "id": "cDmtaSAoSF",
             "isEnriched": true,
@@ -3266,7 +2978,6 @@
           "linkedNodes": {},
           "nodes": [
             "058XUDlhFP",
-            "38du2e5PtS",
             "DrraM2J7Lf",
             "gDYTgzMsxf"
           ],
@@ -3314,192 +3025,9 @@
           "id": "gDYTgzMsxf",
           "label": "Continue with Passkeys",
           "type": "button"
-        },
-        {
-          "icon": "facebook",
-          "id": "38du2e5PtS",
-          "label": "Sign in with Facebook",
-          "subType": "social",
-          "type": "button"
         }
       ],
-      "screenId": "SC2ybnadBX1y3ijkyPFBvHJNGegIT"
-    },
-    {
-      "contents": {
-        "4I3hQX95BZ": {
-          "custom": {},
-          "displayName": "Container",
-          "hidden": false,
-          "isCanvas": true,
-          "linkedNodes": {},
-          "nodes": [
-            "jqtNmu7Gql",
-            "UZHgESPGoK"
-          ],
-          "parent": "ROOT",
-          "props": {
-            "align": "center",
-            "background": "#ffffff00",
-            "data-editor-type": "container",
-            "direction": "row",
-            "id": "4I3hQX95BZ",
-            "justify": "between",
-            "paddingX": "4",
-            "paddingY": "2",
-            "spaceBetween": "8",
-            "width": "100%"
-          },
-          "type": {
-            "resolvedName": "Container"
-          }
-        },
-        "7mIfMql_Ht": {
-          "custom": {},
-          "displayName": "Text",
-          "hidden": false,
-          "isCanvas": false,
-          "linkedNodes": {},
-          "nodes": [],
-          "parent": "ROOT",
-          "props": {
-            "children": "To complete your sign up, please provide the following information",
-            "full-width": false,
-            "id": "7mIfMql_Ht",
-            "italic": false,
-            "mode": "primary",
-            "text-align": "center",
-            "variant": "subtitle2"
-          },
-          "type": {
-            "resolvedName": "Text"
-          }
-        },
-        "NQ8ig4chcI": {
-          "custom": {
-            "type": "input"
-          },
-          "displayName": "Full Name Input",
-          "hidden": false,
-          "isCanvas": false,
-          "linkedNodes": {},
-          "nodes": [],
-          "parent": "ROOT",
-          "props": {
-            "bordered": true,
-            "full-width": true,
-            "id": "NQ8ig4chcI",
-            "label": "",
-            "max": 100,
-            "name": "fullName",
-            "placeholder": "Full Name",
-            "required": false,
-            "size": "md",
-            "type": "text"
-          },
-          "type": {
-            "resolvedName": "FullNameInput"
-          }
-        },
-        "ROOT": {
-          "custom": {},
-          "displayName": "Container",
-          "hidden": false,
-          "isCanvas": true,
-          "linkedNodes": {},
-          "nodes": [
-            "7mIfMql_Ht",
-            "NQ8ig4chcI",
-            "4I3hQX95BZ",
-            "vzbXHpGdM8"
-          ],
-          "props": {
-            "align": "center",
-            "background": "",
-            "data-editor-type": "container",
-            "direction": "column",
-            "id": "ROOT",
-            "justify": "center",
-            "paddingX": "4",
-            "paddingY": "8",
-            "spaceBetween": "4",
-            "width": "100%"
-          },
-          "type": {
-            "resolvedName": "Container"
-          }
-        },
-        "UZHgESPGoK": {
-          "custom": {},
-          "displayName": "Image",
-          "hidden": false,
-          "isCanvas": false,
-          "linkedNodes": {},
-          "nodes": [],
-          "parent": "4I3hQX95BZ",
-          "props": {
-            "alt": "Image",
-            "id": "UZHgESPGoK",
-            "src": "https://imgs.descope.com/flows/common/v1/green-checkmark.png",
-            "width": "30px"
-          },
-          "type": {
-            "resolvedName": "Image"
-          }
-        },
-        "jqtNmu7Gql": {
-          "custom": {},
-          "displayName": "Text",
-          "hidden": false,
-          "isCanvas": false,
-          "linkedNodes": {},
-          "nodes": [],
-          "parent": "4I3hQX95BZ",
-          "props": {
-            "children": "Phone number: {{inputs.phone}}",
-            "full-width": false,
-            "id": "jqtNmu7Gql",
-            "italic": false,
-            "mode": "secondary",
-            "text-align": "center",
-            "variant": "body1"
-          },
-          "type": {
-            "resolvedName": "Text"
-          }
-        },
-        "vzbXHpGdM8": {
-          "custom": {
-            "type": "button"
-          },
-          "displayName": "Button",
-          "hidden": false,
-          "isCanvas": false,
-          "linkedNodes": {},
-          "nodes": [],
-          "parent": "ROOT",
-          "props": {
-            "children": "Submit",
-            "data-type": "button",
-            "formNoValidate": false,
-            "full-width": true,
-            "id": "vzbXHpGdM8",
-            "mode": "primary",
-            "size": "md",
-            "variant": "contained"
-          },
-          "type": {
-            "resolvedName": "Button"
-          }
-        }
-      },
-      "interactions": [
-        {
-          "id": "vzbXHpGdM8",
-          "label": "Submit"
-        }
-      ],
-      "screenId": "SC2ybnae2RwAshTGQKCAcLbjGbejU"
+      "screenId": "SC2zErbzJjDRigykh5YQtsCTEYNxF"
     },
     {
       "contents": {
@@ -3746,7 +3274,399 @@
           "label": "Verify"
         }
       ],
-      "screenId": "SC2ybnaeroUcED2GRjXJ9H0JMtiqe"
+      "screenId": "SC2zErc0iafTc9eEJZw7D1vwxAG6M"
+    },
+    {
+      "contents": {
+        "-elJaMwrLU": {
+          "custom": {
+            "type": "button"
+          },
+          "displayName": "Button",
+          "hidden": false,
+          "isCanvas": false,
+          "linkedNodes": {},
+          "nodes": [],
+          "parent": "Mz6pW94dd2",
+          "props": {
+            "children": "Not now, maybe later",
+            "color": "primary",
+            "data-type": "button",
+            "formNoValidate": false,
+            "full-width": true,
+            "id": "-elJaMwrLU",
+            "mode": "primary",
+            "size": "sm",
+            "variant": "outline"
+          },
+          "type": {
+            "resolvedName": "Button"
+          }
+        },
+        "Mz6pW94dd2": {
+          "custom": {},
+          "displayName": "Container",
+          "hidden": false,
+          "isCanvas": true,
+          "linkedNodes": {},
+          "nodes": [
+            "NBlRNCDAZS",
+            "-elJaMwrLU"
+          ],
+          "parent": "ROOT",
+          "props": {
+            "align": "center",
+            "background": "#ffffff00",
+            "data-editor-type": "container",
+            "direction": "column",
+            "id": "Mz6pW94dd2",
+            "justify": "start",
+            "paddingX": "4",
+            "paddingY": "4",
+            "spaceBetween": "1.5",
+            "width": "100%"
+          },
+          "type": {
+            "resolvedName": "Container"
+          }
+        },
+        "NBlRNCDAZS": {
+          "custom": {
+            "type": "button"
+          },
+          "displayName": "Biometrics Button",
+          "hidden": false,
+          "isCanvas": false,
+          "linkedNodes": {},
+          "nodes": [],
+          "parent": "Mz6pW94dd2",
+          "props": {
+            "auto-submit": true,
+            "children": "Add passkeys",
+            "color": "primary",
+            "data-type": "biometrics",
+            "formNoValidate": false,
+            "full-width": true,
+            "id": "NBlRNCDAZS",
+            "mode": "primary",
+            "size": "sm",
+            "startIcon": "passkey",
+            "startIconColorText": true,
+            "variant": "contained"
+          },
+          "type": {
+            "resolvedName": "BiometricsButton"
+          }
+        },
+        "OPk9Kp7s1X": {
+          "custom": {},
+          "displayName": "Error Message",
+          "hidden": false,
+          "isCanvas": false,
+          "linkedNodes": {},
+          "nodes": [],
+          "parent": "ROOT",
+          "props": {
+            "data-type": "error-message",
+            "full-width": false,
+            "hide-when-empty": true,
+            "id": "OPk9Kp7s1X",
+            "italic": false,
+            "mode": "error",
+            "text-align": "center",
+            "variant": "body1"
+          },
+          "type": {
+            "resolvedName": "ErrorMessage"
+          }
+        },
+        "PXzqwp1Mi0": {
+          "custom": {},
+          "displayName": "Text",
+          "hidden": false,
+          "isCanvas": false,
+          "linkedNodes": {},
+          "nodes": [],
+          "parent": "ROOT",
+          "props": {
+            "children": "Configure Passkeys?",
+            "full-width": false,
+            "id": "PXzqwp1Mi0",
+            "italic": false,
+            "mode": "primary",
+            "text-align": "center",
+            "variant": "h3"
+          },
+          "type": {
+            "resolvedName": "Text"
+          }
+        },
+        "ROOT": {
+          "custom": {},
+          "displayName": "Container",
+          "hidden": false,
+          "isCanvas": true,
+          "linkedNodes": {},
+          "nodes": [
+            "PXzqwp1Mi0",
+            "_F5AIo-MRb",
+            "wCSlkhUS4J",
+            "Mz6pW94dd2",
+            "OPk9Kp7s1X"
+          ],
+          "props": {
+            "align": "center",
+            "background": "",
+            "data-editor-type": "container",
+            "direction": "column",
+            "id": "ROOT",
+            "justify": "center",
+            "paddingX": "4",
+            "paddingY": "8",
+            "spaceBetween": "4",
+            "width": "100%"
+          },
+          "type": {
+            "resolvedName": "Container"
+          }
+        },
+        "_F5AIo-MRb": {
+          "custom": {},
+          "displayName": "Image",
+          "hidden": false,
+          "isCanvas": false,
+          "linkedNodes": {},
+          "nodes": [],
+          "parent": "ROOT",
+          "props": {
+            "alt": "Image",
+            "id": "_F5AIo-MRb",
+            "src": "https://imgs.descope.com/flows/common/v1/fingerprint.svg"
+          },
+          "type": {
+            "resolvedName": "Image"
+          }
+        },
+        "wCSlkhUS4J": {
+          "custom": {},
+          "displayName": "Text",
+          "hidden": false,
+          "isCanvas": false,
+          "linkedNodes": {},
+          "nodes": [],
+          "parent": "ROOT",
+          "props": {
+            "children": "Passkeys will make it easier for you to sign in!",
+            "full-width": false,
+            "id": "wCSlkhUS4J",
+            "italic": false,
+            "mode": "primary",
+            "text-align": "center",
+            "variant": "subtitle2"
+          },
+          "type": {
+            "resolvedName": "Text"
+          }
+        }
+      },
+      "interactions": [
+        {
+          "id": "-elJaMwrLU",
+          "label": "Not now, maybe later"
+        },
+        {
+          "icon": "passkey",
+          "id": "NBlRNCDAZS",
+          "label": "Add passkeys"
+        }
+      ],
+      "screenId": "SC2zErc2bInQ2QKzUf13dqmeXI0Tf"
+    },
+    {
+      "contents": {
+        "1sMmkeVxVT": {
+          "custom": {},
+          "displayName": "Error Message",
+          "hidden": false,
+          "isCanvas": false,
+          "linkedNodes": {},
+          "nodes": [],
+          "parent": "ROOT",
+          "props": {
+            "data-type": "error-message",
+            "full-width": false,
+            "id": "1sMmkeVxVT",
+            "italic": false,
+            "mode": "error",
+            "text-align": "center",
+            "variant": "body1"
+          },
+          "type": {
+            "resolvedName": "ErrorMessage"
+          }
+        },
+        "LmrSIGOWZb": {
+          "custom": {},
+          "displayName": "Text",
+          "hidden": false,
+          "isCanvas": false,
+          "linkedNodes": {},
+          "nodes": [],
+          "parent": "ROOT",
+          "props": {
+            "children": "You're authenticated, you can close this window now",
+            "full-width": false,
+            "id": "LmrSIGOWZb",
+            "italic": false,
+            "mode": "primary",
+            "text-align": "center",
+            "variant": "subtitle1"
+          },
+          "type": {
+            "resolvedName": "Text"
+          }
+        },
+        "PUZgvFyUAB": {
+          "custom": {},
+          "displayName": "Image",
+          "hidden": false,
+          "isCanvas": false,
+          "linkedNodes": {},
+          "nodes": [],
+          "parent": "ROOT",
+          "props": {
+            "alt": "Image",
+            "height": "50px",
+            "id": "PUZgvFyUAB",
+            "src": "https://imgs.descope.com/flows/common/v1/green-checkmark.png"
+          },
+          "type": {
+            "resolvedName": "Image"
+          }
+        },
+        "ROOT": {
+          "custom": {},
+          "displayName": "Container",
+          "hidden": false,
+          "isCanvas": true,
+          "linkedNodes": {},
+          "nodes": [
+            "PUZgvFyUAB",
+            "LmrSIGOWZb",
+            "1sMmkeVxVT"
+          ],
+          "props": {
+            "align": "center",
+            "background": "",
+            "data-editor-type": "container",
+            "direction": "column",
+            "id": "ROOT",
+            "justify": "center",
+            "paddingX": "4",
+            "paddingY": "8",
+            "spaceBetween": "4",
+            "width": "100%"
+          },
+          "type": {
+            "resolvedName": "Container"
+          }
+        }
+      },
+      "interactions": [],
+      "screenId": "SC2zErc2o39zetPnQIj0R5BXlnBIn"
+    },
+    {
+      "contents": {
+        "1sMmkeVxVT": {
+          "custom": {},
+          "displayName": "Error Message",
+          "hidden": false,
+          "isCanvas": false,
+          "linkedNodes": {},
+          "nodes": [],
+          "parent": "ROOT",
+          "props": {
+            "data-type": "error-message",
+            "full-width": false,
+            "id": "1sMmkeVxVT",
+            "italic": false,
+            "mode": "error",
+            "text-align": "center",
+            "variant": "body1"
+          },
+          "type": {
+            "resolvedName": "ErrorMessage"
+          }
+        },
+        "LmrSIGOWZb": {
+          "custom": {},
+          "displayName": "Text",
+          "hidden": false,
+          "isCanvas": false,
+          "linkedNodes": {},
+          "nodes": [],
+          "parent": "ROOT",
+          "props": {
+            "children": "You're authenticated, you can close this window now",
+            "full-width": false,
+            "id": "LmrSIGOWZb",
+            "italic": false,
+            "mode": "primary",
+            "text-align": "center",
+            "variant": "subtitle1"
+          },
+          "type": {
+            "resolvedName": "Text"
+          }
+        },
+        "PUZgvFyUAB": {
+          "custom": {},
+          "displayName": "Image",
+          "hidden": false,
+          "isCanvas": false,
+          "linkedNodes": {},
+          "nodes": [],
+          "parent": "ROOT",
+          "props": {
+            "alt": "Image",
+            "height": "50px",
+            "id": "PUZgvFyUAB",
+            "src": "https://imgs.descope.com/flows/common/v1/green-checkmark.png"
+          },
+          "type": {
+            "resolvedName": "Image"
+          }
+        },
+        "ROOT": {
+          "custom": {},
+          "displayName": "Container",
+          "hidden": false,
+          "isCanvas": true,
+          "linkedNodes": {},
+          "nodes": [
+            "PUZgvFyUAB",
+            "LmrSIGOWZb",
+            "1sMmkeVxVT"
+          ],
+          "props": {
+            "align": "center",
+            "background": "",
+            "data-editor-type": "container",
+            "direction": "column",
+            "id": "ROOT",
+            "justify": "center",
+            "paddingX": "4",
+            "paddingY": "8",
+            "spaceBetween": "4",
+            "width": "100%"
+          },
+          "type": {
+            "resolvedName": "Container"
+          }
+        }
+      },
+      "interactions": [],
+      "screenId": "SC2zErc2rvcODzMJ8mWoe16k0E8ps"
     }
   ]
 }
