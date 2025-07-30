@@ -42,6 +42,36 @@
               "resolvedName": "GoogleButton"
             }
           },
+          "58DZIWHd7f": {
+            "custom": {
+              "subType": "social",
+              "type": "button"
+            },
+            "displayName": "Apple Button",
+            "hidden": false,
+            "isCanvas": false,
+            "linkedNodes": {},
+            "nodes": [],
+            "parent": "zSbBTJOpe0",
+            "props": {
+              "aria-label": "Sign in with Apple",
+              "children": "Sign in with Apple",
+              "color": "primary",
+              "data-descope-provider": "apple",
+              "data-type": "social",
+              "formNoValidate": true,
+              "full-width": true,
+              "id": "58DZIWHd7f",
+              "size": "md",
+              "st-label-spacing": "10px",
+              "startIcon": "apple",
+              "startIconColorText": false,
+              "variant": "outline"
+            },
+            "type": {
+              "resolvedName": "AppleButton"
+            }
+          },
           "COcMh1vzSn": {
             "custom": {
               "type": "button"
@@ -357,6 +387,7 @@
             "linkedNodes": {},
             "nodes": [
               "058XUDlhFP",
+              "58DZIWHd7f",
               "gDYTgzMsxf"
             ],
             "parent": "ROOT",
@@ -406,6 +437,13 @@
             "id": "gDYTgzMsxf",
             "label": "Continue with Passkeys",
             "type": "button"
+          },
+          {
+            "icon": "apple",
+            "id": "58DZIWHd7f",
+            "label": "Sign in with Apple",
+            "subType": "social",
+            "type": "button"
           }
         ],
         "name": "Welcome Screen",
@@ -421,6 +459,10 @@
             },
             {
               "interactionId": "058XUDlhFP",
+              "taskId": "35"
+            },
+            {
+              "interactionId": "58DZIWHd7f",
               "taskId": "35"
             }
           ]
@@ -2590,6 +2632,36 @@
             "resolvedName": "GoogleButton"
           }
         },
+        "58DZIWHd7f": {
+          "custom": {
+            "subType": "social",
+            "type": "button"
+          },
+          "displayName": "Apple Button",
+          "hidden": false,
+          "isCanvas": false,
+          "linkedNodes": {},
+          "nodes": [],
+          "parent": "zSbBTJOpe0",
+          "props": {
+            "aria-label": "Sign in with Apple",
+            "children": "Sign in with Apple",
+            "color": "primary",
+            "data-descope-provider": "apple",
+            "data-type": "social",
+            "formNoValidate": true,
+            "full-width": true,
+            "id": "58DZIWHd7f",
+            "size": "md",
+            "st-label-spacing": "10px",
+            "startIcon": "apple",
+            "startIconColorText": false,
+            "variant": "outline"
+          },
+          "type": {
+            "resolvedName": "AppleButton"
+          }
+        },
         "COcMh1vzSn": {
           "custom": {
             "type": "button"
@@ -2905,6 +2977,7 @@
           "linkedNodes": {},
           "nodes": [
             "058XUDlhFP",
+            "58DZIWHd7f",
             "gDYTgzMsxf"
           ],
           "parent": "ROOT",
@@ -2943,6 +3016,13 @@
           "icon": "passkey",
           "id": "gDYTgzMsxf",
           "label": "Continue with Passkeys",
+          "type": "button"
+        },
+        {
+          "icon": "apple",
+          "id": "58DZIWHd7f",
+          "label": "Sign in with Apple",
+          "subType": "social",
           "type": "button"
         }
       ],
