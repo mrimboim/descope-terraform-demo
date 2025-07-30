@@ -68,37 +68,6 @@
               "resolvedName": "Button"
             }
           },
-          "DrraM2J7Lf": {
-            "custom": {
-              "subType": "social",
-              "type": "button"
-            },
-            "displayName": "Apple Button",
-            "hidden": false,
-            "isCanvas": false,
-            "linkedNodes": {},
-            "nodes": [],
-            "parent": "zSbBTJOpe0",
-            "props": {
-              "aria-label": "Sign in with Apple",
-              "children": "Continue with Apple",
-              "color": "primary",
-              "data-descope-provider": "apple",
-              "data-type": "social",
-              "formNoValidate": true,
-              "full-width": true,
-              "id": "DrraM2J7Lf",
-              "shape": "",
-              "size": "md",
-              "st-label-spacing": "10px",
-              "startIcon": "apple",
-              "startIconColorText": false,
-              "variant": "outline"
-            },
-            "type": {
-              "resolvedName": "AppleButton"
-            }
-          },
           "F6duB0LsbH": {
             "custom": {},
             "displayName": "Text",
@@ -247,7 +216,7 @@
             "nodes": [],
             "parent": "ROOT",
             "props": {
-              "children": "Attempt 6\n\n",
+              "children": "Hellow World This is Demo\n\n",
               "full-width": false,
               "id": "cDmtaSAoSF",
               "isEnriched": true,
@@ -388,7 +357,6 @@
             "linkedNodes": {},
             "nodes": [
               "058XUDlhFP",
-              "DrraM2J7Lf",
               "gDYTgzMsxf"
             ],
             "parent": "ROOT",
@@ -434,13 +402,6 @@
             "type": "button"
           },
           {
-            "icon": "apple",
-            "id": "DrraM2J7Lf",
-            "label": "Continue with Apple",
-            "subType": "social",
-            "type": "button"
-          },
-          {
             "icon": "passkey",
             "id": "gDYTgzMsxf",
             "label": "Continue with Passkeys",
@@ -461,13 +422,10 @@
             {
               "interactionId": "058XUDlhFP",
               "taskId": "35"
-            },
-            {
-              "interactionId": "DrraM2J7Lf",
-              "taskId": "35"
             }
           ]
         },
+        "recoveryCodesData": [],
         "screenId": "SC2zErbzJjDRigykh5YQtsCTEYNxF",
         "type": "screen",
         "view": {
@@ -1499,7 +1457,7 @@
   },
   "flowId": "sign-up-or-in",
   "metadata": {
-    "componentsVersion": "2.0.557",
+    "componentsVersion": "2.0.601",
     "description": "Default Descope Sign Up or In flow; enables users to sign up or in via Magic Link, Social Logins or Biometrics. For Biometrics, Email is verified if needed. Registration information includes Full Name and Phone (verification via OTP).",
     "name": "Sign Up or In",
     "sharedInteractions": [
@@ -2658,37 +2616,6 @@
             "resolvedName": "Button"
           }
         },
-        "DrraM2J7Lf": {
-          "custom": {
-            "subType": "social",
-            "type": "button"
-          },
-          "displayName": "Apple Button",
-          "hidden": false,
-          "isCanvas": false,
-          "linkedNodes": {},
-          "nodes": [],
-          "parent": "zSbBTJOpe0",
-          "props": {
-            "aria-label": "Sign in with Apple",
-            "children": "Continue with Apple",
-            "color": "primary",
-            "data-descope-provider": "apple",
-            "data-type": "social",
-            "formNoValidate": true,
-            "full-width": true,
-            "id": "DrraM2J7Lf",
-            "shape": "",
-            "size": "md",
-            "st-label-spacing": "10px",
-            "startIcon": "apple",
-            "startIconColorText": false,
-            "variant": "outline"
-          },
-          "type": {
-            "resolvedName": "AppleButton"
-          }
-        },
         "F6duB0LsbH": {
           "custom": {},
           "displayName": "Text",
@@ -2837,7 +2764,7 @@
           "nodes": [],
           "parent": "ROOT",
           "props": {
-            "children": "Attempt 6\n\n",
+            "children": "Hellow World This is Demo\n\n",
             "full-width": false,
             "id": "cDmtaSAoSF",
             "isEnriched": true,
@@ -2978,7 +2905,6 @@
           "linkedNodes": {},
           "nodes": [
             "058XUDlhFP",
-            "DrraM2J7Lf",
             "gDYTgzMsxf"
           ],
           "parent": "ROOT",
@@ -3011,13 +2937,6 @@
         {
           "id": "COcMh1vzSn",
           "label": "Continue",
-          "type": "button"
-        },
-        {
-          "icon": "apple",
-          "id": "DrraM2J7Lf",
-          "label": "Continue with Apple",
-          "subType": "social",
           "type": "button"
         },
         {
