@@ -1113,15 +1113,15 @@
         "arguments": {
           "addToLoginIDs": {
             "type": "inline",
-            "value": ""
+            "value": false
           },
           "extraTemplateVals": {
             "type": "inline",
-            "value": ""
+            "value": null
           },
           "onMergeUseExisting": {
             "type": "inline",
-            "value": ""
+            "value": true
           },
           "providerId": {
             "type": "inline",
@@ -1138,6 +1138,21 @@
           "verifyStepId": {
             "type": "inline",
             "value": "31.end"
+          }
+        },
+        "errorHandlingV2": {
+          "ActionErrorRateLimitExceeded": {
+            "errorHandlingType": "automatic",
+            "errorMessage": "Random message"
+          },
+          "MagicLinkUnauthorizedRequest": {
+            "errorHandlingType": "automatic"
+          },
+          "MagicLinkUpdateUserEmailFailed": {
+            "errorHandlingType": "automatic"
+          },
+          "MagicLinkVerifyFailed": {
+            "errorHandlingType": "automatic"
           }
         },
         "id": "31",
@@ -1165,15 +1180,15 @@
         "arguments": {
           "addToLoginIDs": {
             "type": "inline",
-            "value": ""
+            "value": false
           },
           "extraTemplateVals": {
             "type": "inline",
-            "value": ""
+            "value": null
           },
           "onMergeUseExisting": {
             "type": "inline",
-            "value": ""
+            "value": true
           },
           "providerId": {
             "type": "inline",
@@ -1190,6 +1205,21 @@
           "verifyStepId": {
             "type": "inline",
             "value": "31.end"
+          }
+        },
+        "errorHandlingV2": {
+          "ActionErrorRateLimitExceeded": {
+            "errorHandlingType": "automatic",
+            "errorMessage": "Random message"
+          },
+          "MagicLinkUnauthorizedRequest": {
+            "errorHandlingType": "automatic"
+          },
+          "MagicLinkUpdateUserEmailFailed": {
+            "errorHandlingType": "automatic"
+          },
+          "MagicLinkVerifyFailed": {
+            "errorHandlingType": "automatic"
           }
         },
         "id": "31.end",
