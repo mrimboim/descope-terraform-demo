@@ -1143,7 +1143,7 @@
         "errorHandlingV2": {
           "ActionErrorRateLimitExceeded": {
             "errorHandlingType": "automatic",
-            "errorMessage": "Random message"
+            "errorMessage": "Random message part 2"
           },
           "MagicLinkUnauthorizedRequest": {
             "errorHandlingType": "automatic"
@@ -1210,7 +1210,7 @@
         "errorHandlingV2": {
           "ActionErrorRateLimitExceeded": {
             "errorHandlingType": "automatic",
-            "errorMessage": "Random message"
+            "errorMessage": "Random message part 2"
           },
           "MagicLinkUnauthorizedRequest": {
             "errorHandlingType": "automatic"
