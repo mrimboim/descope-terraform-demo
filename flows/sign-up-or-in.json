@@ -8,6 +8,7 @@
         ],
         "calculatedInputKeys": true,
         "clientScripts": [],
+        "componentsConditions": [],
         "componentsConnectors": {},
         "dynamicSelects": {},
         "htmlTemplate": {
@@ -246,7 +247,7 @@
             "nodes": [],
             "parent": "ROOT",
             "props": {
-              "children": "Hellow World This is Demo changed FOR LINKTREE\n\n",
+              "children": "Hellow World\n\n",
               "full-width": false,
               "id": "cDmtaSAoSF",
               "isEnriched": true,
@@ -1529,7 +1530,7 @@
   },
   "flowId": "sign-up-or-in",
   "metadata": {
-    "componentsVersion": "2.1.17",
+    "componentsVersion": "2.2.9",
     "description": "Default Descope Sign Up or In flow; enables users to sign up or in via Magic Link, Social Logins or Biometrics. For Biometrics, Email is verified if needed. Registration information includes Full Name and Phone (verification via OTP).",
     "name": "Sign Up or In",
     "sharedInteractions": [
@@ -2866,7 +2867,7 @@
           "nodes": [],
           "parent": "ROOT",
           "props": {
-            "children": "Hellow World This is Demo changed FOR LINKTREE\n\n",
+            "children": "Hellow World\n\n",
             "full-width": false,
             "id": "cDmtaSAoSF",
             "isEnriched": true,
