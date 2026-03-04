@@ -37,6 +37,7 @@
               "st-label-spacing": "10px",
               "startIcon": "google",
               "startIconColorText": false,
+              "tooltipText": "Tooltip text",
               "variant": "outline"
             },
             "type": {
@@ -67,6 +68,7 @@
               "st-label-spacing": "10px",
               "startIcon": "apple",
               "startIconColorText": false,
+              "tooltipText": "Tooltip text",
               "variant": "outline"
             },
             "type": {
@@ -93,6 +95,7 @@
               "id": "COcMh1vzSn",
               "mode": "primary",
               "size": "md",
+              "tooltipText": "Tooltip text",
               "variant": "contained"
             },
             "type": {
@@ -116,6 +119,7 @@
               "link-target-blank": true,
               "mode": "primary",
               "text-align": "center",
+              "tooltipText": "Tooltip text",
               "variant": "body1"
             },
             "type": {
@@ -247,7 +251,7 @@
             "nodes": [],
             "parent": "ROOT",
             "props": {
-              "children": "Hellow World\n\n",
+              "children": "Hellow World Test 1\n\n",
               "full-width": false,
               "id": "cDmtaSAoSF",
               "isEnriched": true,
@@ -255,6 +259,7 @@
               "link-target-blank": true,
               "mode": "primary",
               "text-align": "center",
+              "tooltipText": "Tooltip text",
               "variant": "h3"
             },
             "type": {
@@ -278,6 +283,7 @@
               "link-target-blank": true,
               "mode": "primary",
               "text-align": "center",
+              "tooltipText": "Tooltip text",
               "variant": "body1"
             },
             "type": {
@@ -308,6 +314,7 @@
               "st-label-spacing": "10px",
               "startIcon": "passkey",
               "startIconColorText": true,
+              "tooltipText": "Tooltip text",
               "variant": "outline"
             },
             "type": {
@@ -331,6 +338,7 @@
               "mode": "primary",
               "target": "_blank",
               "text-align": "center",
+              "tooltipText": "Tooltip text",
               "variant": "body1"
             },
             "type": {
@@ -354,6 +362,7 @@
               "mode": "primary",
               "target": "_blank",
               "text-align": "center",
+              "tooltipText": "Tooltip text",
               "variant": "body1"
             },
             "type": {
@@ -1336,6 +1345,10 @@
             "type": "inline",
             "value": "35.end"
           },
+          "forceNonNative": {
+            "type": "inline",
+            "value": ""
+          },
           "loginHint": {
             "type": "inline",
             "value": ""
@@ -1530,7 +1543,7 @@
   },
   "flowId": "sign-up-or-in",
   "metadata": {
-    "componentsVersion": "2.2.9",
+    "componentsVersion": "2.2.50",
     "description": "Default Descope Sign Up or In flow; enables users to sign up or in via Magic Link, Social Logins or Biometrics. For Biometrics, Email is verified if needed. Registration information includes Full Name and Phone (verification via OTP).",
     "name": "Sign Up or In",
     "sharedInteractions": [
@@ -2657,6 +2670,7 @@
             "st-label-spacing": "10px",
             "startIcon": "google",
             "startIconColorText": false,
+            "tooltipText": "Tooltip text",
             "variant": "outline"
           },
           "type": {
@@ -2687,6 +2701,7 @@
             "st-label-spacing": "10px",
             "startIcon": "apple",
             "startIconColorText": false,
+            "tooltipText": "Tooltip text",
             "variant": "outline"
           },
           "type": {
@@ -2713,6 +2728,7 @@
             "id": "COcMh1vzSn",
             "mode": "primary",
             "size": "md",
+            "tooltipText": "Tooltip text",
             "variant": "contained"
           },
           "type": {
@@ -2736,6 +2752,7 @@
             "link-target-blank": true,
             "mode": "primary",
             "text-align": "center",
+            "tooltipText": "Tooltip text",
             "variant": "body1"
           },
           "type": {
@@ -2867,7 +2884,7 @@
           "nodes": [],
           "parent": "ROOT",
           "props": {
-            "children": "Hellow World\n\n",
+            "children": "Hellow World Test 1\n\n",
             "full-width": false,
             "id": "cDmtaSAoSF",
             "isEnriched": true,
@@ -2875,6 +2892,7 @@
             "link-target-blank": true,
             "mode": "primary",
             "text-align": "center",
+            "tooltipText": "Tooltip text",
             "variant": "h3"
           },
           "type": {
@@ -2898,6 +2916,7 @@
             "link-target-blank": true,
             "mode": "primary",
             "text-align": "center",
+            "tooltipText": "Tooltip text",
             "variant": "body1"
           },
           "type": {
@@ -2928,6 +2947,7 @@
             "st-label-spacing": "10px",
             "startIcon": "passkey",
             "startIconColorText": true,
+            "tooltipText": "Tooltip text",
             "variant": "outline"
           },
           "type": {
@@ -2951,6 +2971,7 @@
             "mode": "primary",
             "target": "_blank",
             "text-align": "center",
+            "tooltipText": "Tooltip text",
             "variant": "body1"
           },
           "type": {
@@ -2974,6 +2995,7 @@
             "mode": "primary",
             "target": "_blank",
             "text-align": "center",
+            "tooltipText": "Tooltip text",
             "variant": "body1"
           },
           "type": {
