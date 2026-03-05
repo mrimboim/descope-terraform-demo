@@ -39,7 +39,6 @@ resource "descope_project" "project" {
     }
     sso = {
         merge_users = true
-        redirect_url = https://apple.com
     }
   }
  
