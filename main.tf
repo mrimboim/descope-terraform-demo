@@ -30,7 +30,7 @@ resource "descope_project" "project" {
   authentication = {
     magic_link = {
       expiration_time = 3600
-      expiration_time_unit "seconds"
+      expiration_time_unit = "seconds"
     }
     password = {
         lock = true
