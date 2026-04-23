@@ -10,6 +10,7 @@
         "clientScripts": [],
         "componentsConditions": [],
         "componentsConnectors": {},
+        "connectorComponentProps": {},
         "dynamicSelects": {},
         "htmlTemplate": {
           "058XUDlhFP": {
@@ -251,7 +252,7 @@
             "nodes": [],
             "parent": "ROOT",
             "props": {
-              "children": "Hellow World Test key 1 fix yaml\n\n",
+              "children": "Hellow World Test hello Fieldguide\n\n",
               "full-width": false,
               "id": "cDmtaSAoSF",
               "isEnriched": true,
@@ -619,10 +620,16 @@
         }
       },
       "16": {
+        "allInputKeys": [
+          "fullName"
+        ],
         "contextKeys": [
           "inputs.phone"
         ],
         "id": "16",
+        "inputKeys": [
+          "fullName"
+        ],
         "inputsMetadata": [
           {
             "displayName": "Full Name Input",
@@ -708,6 +715,7 @@
         }
       },
       "21": {
+        "allInputKeys": [],
         "id": "21",
         "inputsMetadata": [],
         "name": "Promote Biometrics",
@@ -942,6 +950,7 @@
         }
       },
       "25": {
+        "allInputKeys": [],
         "contextKeys": [
           "sentTo.maskedEmail"
         ],
@@ -972,6 +981,7 @@
         }
       },
       "26": {
+        "allInputKeys": [],
         "id": "26",
         "inputsMetadata": [],
         "name": "Verified Successfully",
@@ -1002,6 +1012,9 @@
         }
       },
       "28": {
+        "allInputKeys": [
+          "code"
+        ],
         "contextKeys": [
           "sentTo.maskedPhone"
         ],
@@ -1249,6 +1262,7 @@
         }
       },
       "32": {
+        "allInputKeys": [],
         "contextKeys": [
           "sentTo.maskedEmail"
         ],
@@ -1275,6 +1289,7 @@
         }
       },
       "33": {
+        "allInputKeys": [],
         "id": "33",
         "inputsMetadata": [],
         "name": "Verified Successfully",
@@ -1498,6 +1513,10 @@
         }
       },
       "7": {
+        "allInputKeys": [
+          "phone",
+          "fullName"
+        ],
         "id": "7",
         "inputKeys": [
           "fullName"
@@ -1547,7 +1566,7 @@
   },
   "flowId": "sign-up-or-in",
   "metadata": {
-    "componentsVersion": "2.2.50",
+    "componentsVersion": "3.2.0",
     "description": "Default Descope Sign Up or In flow; enables users to sign up or in via Magic Link, Social Logins or Biometrics. For Biometrics, Email is verified if needed. Registration information includes Full Name and Phone (verification via OTP).",
     "name": "Sign Up or In",
     "sharedInteractions": [
@@ -2888,7 +2907,7 @@
           "nodes": [],
           "parent": "ROOT",
           "props": {
-            "children": "Hellow World Test key 1 fix yaml\n\n",
+            "children": "Hellow World Test hello Fieldguide\n\n",
             "full-width": false,
             "id": "cDmtaSAoSF",
             "isEnriched": true,
