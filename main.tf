@@ -4,7 +4,7 @@ provider "descope" {
 }
 
 resource "descope_project" "project" {
-  name = "Terraform Demo - PROD"
+  name = "Terraform Demo PROD"
   environment = "production"
 
   flows = {
@@ -29,8 +29,8 @@ resource "descope_project" "project" {
  
   authentication = {
     magic_link = {
-      expiration_time = 3600
-      expiration_time_unit = "seconds"
+      expiration_time = 12
+      expiration_time_unit = "minutes"
     }
     password = {
         lock = true
